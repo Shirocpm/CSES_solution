@@ -17,8 +17,8 @@ using namespace std;
 
 void solve ()
 {
-  cin >> n;
-  s = (n * (n + 1)) / 2;
+  int n; cin >> n;
+  int s = (n * (n + 1)) / 2;
 	for (int i = 1; i < n; i++) {cin >> a; s -= a;}
 	cout << s;
 }
